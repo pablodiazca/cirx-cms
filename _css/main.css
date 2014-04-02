@@ -148,6 +148,20 @@ article {
     @media screen and (max-width: 500px) {
       article p {
         font-size: 17px; } }
+  article strong {
+    font-weight: 700; }
+  article ul {
+    margin: 20px 50px;
+    font-size: 20px;
+    border-left: 2px solid #e74c3c;
+    background: #eee;
+    padding: 20px; }
+    @media screen and (max-width: 500px) {
+      article ul {
+        font-size: 17px;
+        margin: 20px 20px; } }
+    article ul li {
+      margin: 10px 0; }
 
 article section {
   border-bottom: 1px solid #e74c3c;
