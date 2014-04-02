@@ -1,6 +1,6 @@
 #Cirx CMS
 
-This is Cirx, a free responsive theme for Anchor CMS made by [Pablo Diaz](https://www.pablodiaz.ca).
+This is Cirx, a free responsive theme for Anchor CMS made by [Pablo Diaz](http://www.pdiaz.ca).
 
 To install Anchor and Cirx theme follow the instructions in the [Anchor docs](http://anchorcms.com/docs/).
 
