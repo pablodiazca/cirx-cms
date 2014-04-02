@@ -1,0 +1,5 @@
+Theme name: The Cirx
+Description: Minimalist theme for Anchor CMS
+Author name: Pablo Diaz
+Author site: http://www.pdiaz.ca
+License: http://creativecommons.org/licenses/by-sa/4.0/

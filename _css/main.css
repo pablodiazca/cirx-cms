@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+.container {
+  *zoom: 1;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+
+/********************************************/
+/********************************************/
+body {
+  font-family: "Lato", Helvetica, sans-serif; }
+  @media screen and (max-width: 500px) {
+    body {
+      padding: 0 10px; } }
+
+::selection {
+  color: #e74c3c;
+  background: black; }
+
+::-moz-selection {
+  color: #e74c3c;
+  background: black; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  border-bottom: 5px solid #e74c3c;
+  text-align: center;
+  margin: 50px 0;
+  padding: 50px; }
+  header:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px) {
+    header {
+      padding: 30px;
+      margin: 20px 0; } }
+  header h1 {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #e74c3c; }
+    @media screen and (max-width: 500px) {
+      header h1 {
+        font-size: 50px; } }
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: all 0.5s; }
+  a:hover {
+    color: #666666; }
+
+article {
+  border-bottom: 3px solid #e74c3c;
+  margin-top: 50px; }
+  article img {
+    width: 100%;
+    margin: 10px 0 20px 0; }
+  article blockquote {
+    border-left: 5px solid #e74c3c;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    font-size: 25px;
+    width: 300px;
+    line-height: 1.5; }
+    article blockquote p {
+      font-size: 25px; }
+      @media screen and (max-width: 500px) {
+        article blockquote p {
+          font-size: 20px; } }
+    @media screen and (max-width: 500px) {
+      article blockquote {
+        font-size: 17px;
+        width: 100%;
+        margin: 20px 0; } }
+  article p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 500px) {
+      article p {
+        font-size: 17px; } }
+
+article section {
+  border-bottom: 1px solid #e74c3c;
+  margin-bottom: 20px; }
+  article section p {
+    font-size: 15px; }
+  article section h1 {
+    font-size: 70px;
+    margin: 20px 0;
+    font-weight: 700; }
+    @media screen and (max-width: 500px) {
+      article section h1 {
+        font-size: 40px; } }
+  article section h3 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    font-weight: 300; }
+    @media screen and (max-width: 500px) {
+      article section h3 {
+        font-size: 20px; } }
+
+section.pagination {
+  margin: 30px 0;
+  font-size: 20px;
+  text-align: center; }
+  section.pagination a {
+    margin: 0 20px; }
+
+.twitter-share-button {
+  margin: 50px 0; }
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  margin: 50px 0; }
+  footer h3 {
+    font-size: 20px;
+    margin: 20px 0; }
+  footer a {
+    margin: 0 20px; }

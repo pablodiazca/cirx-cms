@@ -1,0 +1,160 @@
+//$visual-grid: true;
+
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import '_inc/reset';
+@import '_inc/variables';  
+
+/********************************************/
+// START CSS
+/********************************************/
+
+body{
+	font-family: $article;
+	
+	@include media($mobile){
+		padding: 0 10px;
+	}
+}
+
+::selection {color:$highlight;background:black;}
+::-moz-selection {color:$highlight;background:black;}
+
+header{
+	@include span-columns(8);
+	border-bottom: 5px solid $highlight;
+	text-align: center;
+	margin: 50px 0;
+	padding: 50px;
+	@include media($mobile){
+		padding: 30px;
+		margin: 20px 0;
+	}	
+	
+	h1{
+		font-family: $article;
+		font-size: 80px;
+		font-weight: 700;
+		color: $highlight;
+		@include media($mobile){
+			font-size: 50px;
+		}
+	}
+}
+
+a{
+	color: $highlight;
+	text-decoration: none;
+	transition: all 0.5s;
+	
+	&:hover{
+		color: $gray;
+	}
+}
+
+article{
+
+	border-bottom: 3px solid $highlight;
+	
+	margin-top: 50px;
+	
+	img{
+		width: 100%;
+		margin: 10px 0 20px 0;
+	}
+	
+	blockquote{
+		border-left: 5px solid $highlight;
+		margin: 20px;
+		padding: 20px;
+		float: left;
+		font-size: 25px;
+		width: 300px;
+		line-height: 1.5;
+		
+		p{
+			font-size: 25px;
+			@include media($mobile){
+			font-size: 20px;
+			}
+		}
+		@include media($mobile){
+			font-size: 17px;
+			width: 100%;
+			margin: 20px 0;
+		}
+	}
+	
+	p{
+		font-size: 20px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+		@include media($mobile){
+			font-size: 17px;
+		}
+	}
+}
+
+article section{
+	border-bottom: 1px solid $highlight; 
+	margin-bottom: 20px;
+	
+		p{
+			font-size: 15px;
+		}
+	
+		h1{
+		font-size: 70px;
+		margin: 20px 0;
+		font-weight: 700;
+		@include media($mobile){
+			font-size: 40px;
+		}
+		
+	}
+	
+	h3{
+		font-size: 50px;
+		font-weight: 400;
+		margin-bottom: 40px;
+		letter-spacing: 2px;
+		margin: 20px 0;
+		font-weight: 300;
+		@include media($mobile){
+			font-size: 20px;
+		}
+	}
+}
+
+section.pagination{
+		margin: 30px 0;
+		font-size: 20px;
+		text-align: center;
+	
+	a{
+		margin: 0 20px;
+	}
+}
+
+.twitter-share-button{
+	margin: 50px 0;	
+}
+
+footer{
+	font-size: 15px;
+	text-align: center;
+	margin: 50px 0;
+	
+	h3{
+		font-size: 20px;
+		margin: 20px 0;
+	}
+	
+	a{
+		margin: 0 20px;
+	}
+	
+}
+
+
+
